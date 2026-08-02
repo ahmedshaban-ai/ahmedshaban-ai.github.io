@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ahmed Sha'ban — AI Research Portfolio in Multimodal AI, Computer Vision, Vision-Language Models and RAG." />
+  <meta name="theme-color" content="#070b18" />
+  <title>Ahmed Sha'ban | AI Research Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">AS<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Journey</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="assets/Ahmed_Shaban_CV.pdf" target="_blank">Download CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Open to funded research collaboration</div>
+          <h1>Ahmed <span class="gradient-text">Sha'ban</span></h1>
+          <h2>I build <span id="typedText">multimodal AI systems</span><span class="cursor">|</span></h2>
+          <p>
+            Master's student in Smart Systems Engineering working across Computer Vision,
+            Vision-Language Models, Retrieval-Augmented Generation, efficient LLM inference,
+            and intelligent systems.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Explore My Research</a>
+            <a class="btn secondary" href="assets/Ahmed_Shaban_CV.pdf" target="_blank">View CV</a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/ahmedshaban-ai" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/ahmed-shaban-a37b14238/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:s12154757@stu.najah.edu">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <img src="assets/research-banner.png" alt="Ahmed Sha'ban AI Research Portfolio banner" />
+          <div class="hero-card-body">
+            <div>
+              <span class="tiny-label">Current role</span>
+              <strong>MSc Researcher</strong>
+            </div>
+            <div>
+              <span class="tiny-label">Location</span>
+              <strong>Nablus, Palestine</strong>
+            </div>
+            <div>
+              <span class="tiny-label">Availability</span>
+              <strong>5–6 month placement</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">↓</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>01 — About</span>
+          <h2>Research with real-world impact.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Who I am</h3>
+            <p>
+              I am completing an MSc in Smart Systems Engineering at An-Najah National University,
+              with all coursework completed and a GPA of 3.58/4.00. My current work combines
+              visual understanding, semantic retrieval, Arabic text generation, GPU inference,
+              and model evaluation.
+            </p>
+            <p>
+              I am open to a completely new research topic proposed by a host laboratory.
+              My university can appoint an internal academic supervisor and formally support
+              an externally co-supervised Master's research project.
+            </p>
+          </article>
+          <div class="metric-grid">
+            <div class="metric glass-card reveal">
+              <strong data-count="100000">0</strong>
+              <span>Images processed</span>
+            </div>
+            <div class="metric glass-card reveal">
+              <strong data-count="30">0</strong>
+              <span>MSc credits completed</span>
+            </div>
+            <div class="metric glass-card reveal">
+              <strong data-count="5">0</strong>
+              <span>Core research projects</span>
+            </div>
+            <div class="metric glass-card reveal">
+              <strong>3.58</strong>
+              <span>MSc GPA / 4.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="research">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>02 — Research</span>
+          <h2>Core research directions.</h2>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card reveal">
+            <div class="icon">◉</div>
+            <h3>Multimodal AI</h3>
+            <p>Systems that connect images, language, retrieval, and generation in one pipeline.</p>
+          </article>
+          <article class="research-card reveal">
+            <div class="icon">⌁</div>
+            <h3>Computer Vision</h3>
+            <p>Image understanding, classification, visual reasoning, and real-time perception.</p>
+          </article>
+          <article class="research-card reveal">
+            <div class="icon">✦</div>
+            <h3>Vision-Language Models</h3>
+            <p>Reliable interaction between visual inputs and large language models.</p>
+          </article>
+          <article class="research-card reveal">
+            <div class="icon">↯</div>
+            <h3>RAG & Efficient LLMs</h3>
+            <p>FAISS retrieval, prompt construction, quantization, LoRA/QLoRA, and GPU inference.</p>
+          </article>
+          <article class="research-card reveal">
+            <div class="icon">✓</div>
+            <h3>Trustworthy AI</h3>
+            <p>Robustness, model evaluation, human assessment, and responsible deployment.</p>
+          </article>
+          <article class="research-card reveal">
+            <div class="icon">⌘</div>
+            <h3>Intelligent Systems</h3>
+            <p>Robotics, IoT, Jetson Nano, sensors, and hardware-software integration.</p>
+          </article>
+        </div>
+
+        <div class="skills-panel glass-card reveal">
+          <div class="skills-copy">
+            <span class="tiny-label">Technical stack</span>
+            <h3>From models to deployed systems.</h3>
+          </div>
+          <div class="skill-tags">
+            <span>Python</span><span>PyTorch</span><span>Transformers</span><span>OpenCV</span>
+            <span>Qwen2.5</span><span>FAISS</span><span>CUDA</span><span>GGUF</span>
+            <span>LoRA</span><span>QLoRA</span><span>scikit-learn</span><span>Jetson Nano</span>
+            <span>C++</span><span>C#</span><span>SQL</span><span>Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>03 — Projects</span>
+          <h2>Selected research and engineering work.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-top">
+              <span class="status complete">Featured research</span>
+              <span>01</span>
+            </div>
+            <h3>Multimodal Image-to-Story Generation</h3>
+            <p>
+              Arabic multimodal pipeline combining image understanding, FAISS retrieval,
+              prompt construction, and Qwen2.5 generation for single and sequential images.
+            </p>
+            <div class="tech-line">PyTorch · Qwen2.5 · FAISS · Transformers · CUDA</div>
+            <a href="https://github.com/ahmedshaban-ai/multimodal-image-to-story-generation" target="_blank">View repository ↗</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="status complete">Completed prototype</span>
+              <span>02</span>
+            </div>
+            <h3>E-Commerce Product Image Quality</h3>
+            <p>Five-class deep-learning image-quality classification with reusable training and evaluation code.</p>
+            <div class="tech-line">CNN · PyTorch · Torchvision · scikit-learn</div>
+            <a href="https://github.com/ahmedshaban-ai/deep-learning-image-quality" target="_blank">View repository ↗</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="status progress">Documentation in progress</span>
+              <span>03</span>
+            </div>
+            <h3>Swarm Robotics Coordination</h3>
+            <p>Four JetBots coordinated through computer vision and WebSocket-based leader communication.</p>
+            <div class="tech-line">Python · OpenCV · Jetson Nano · WebSockets</div>
+            <span class="muted-link">Repository coming soon</span>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="status progress">Prototype</span>
+              <span>04</span>
+            </div>
+            <h3>Autonomous Car Prototype</h3>
+            <p>Traffic-sign recognition, sensors, embedded decision logic, and real-time hardware control.</p>
+            <div class="tech-line">OpenCV · Computer Vision · Sensors · Embedded Systems</div>
+            <span class="muted-link">Repository coming soon</span>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="status progress">Machine learning study</span>
+              <span>05</span>
+            </div>
+            <h3>Gold Price Decision Support</h3>
+            <p>Time-series feature engineering and comparison of classical ML models for XAUUSD prediction.</p>
+            <div class="tech-line">Python · Random Forest · SVM · Logistic Regression</div>
+            <span class="muted-link">Repository coming soon</span>
+          </article>
+
+          <article class="project-card portfolio-card reveal">
+            <div class="project-top">
+              <span class="status complete">Portfolio</span>
+              <span>↗</span>
+            </div>
+            <h3>Research Portfolio Repository</h3>
+            <p>Academic CV, detailed research interests, availability, and an overview of current projects.</p>
+            <div class="tech-line">Research profile · CV · Project documentation</div>
+            <a href="https://github.com/ahmedshaban-ai/research-portfolio" target="_blank">Open portfolio ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="timeline">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>04 — Journey</span>
+          <h2>Research timeline.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2022</div>
+            <div class="timeline-content glass-card">
+              <h3>Started MSc in Smart Systems Engineering</h3>
+              <p>Advanced coursework in intelligent systems, AI, and applied research.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2025</div>
+            <div class="timeline-content glass-card">
+              <h3>Multimodal research phase</h3>
+              <p>Built image-to-story pipelines, explored RAG, Qwen2.5, quantized models, and evaluation workflows.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2026</div>
+            <div class="timeline-content glass-card">
+              <h3>International research collaboration</h3>
+              <p>Seeking a funded 5–6 month placement for a new externally co-supervised Master's research project.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot future"></div>
+            <div class="timeline-year">Next</div>
+            <div class="timeline-content glass-card">
+              <h3>Research publication and PhD pathway</h3>
+              <p>Contribute to impactful AI research and continue toward advanced international research.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card glass-card reveal">
+        <div>
+          <span class="eyebrow"><span></span> Let’s collaborate</span>
+          <h2>Building reliable AI systems together.</h2>
+          <p>
+            I am available for funded research internships, visiting research positions,
+            research assistant roles, and externally co-supervised Master's thesis projects.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:s12154757@stu.najah.edu">Send Email</a>
+          <a class="btn secondary" href="assets/Ahmed_Shaban_CV.pdf" target="_blank">Download CV</a>
+          <a class="text-link" href="https://github.com/ahmedshaban-ai" target="_blank">GitHub ↗</a>
+          <a class="text-link" href="https://www.linkedin.com/in/ahmed-shaban-a37b14238/" target="_blank">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Ahmed Sha'ban</span>
+      <span>AI Research Portfolio</span>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
